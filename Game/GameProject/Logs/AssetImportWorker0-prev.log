@@ -1,0 +1,275 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 18363.1440; Version 1909; 64bit' Language: 'fr' Physical Memory: 16169 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Game_Project/Game/GameProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58915
+Successfully changed project path to: D:/Game_Project/Game/GameProject
+D:/Game_Project/Game/GameProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game_Project/Game/GameProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   
+    VRAM:     8084 MB
+    Driver:   27.20.100.8783
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001652 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001186 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 1.917600 ms (FindLiveObjects: 0.199400 ms CreateObjectMapping: 0.073800 ms MarkObjects: 1.529800 ms  DeleteObjects: 0.113900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Imports/Images/gemme_orange.png
+  artifactKey: Guid(ec41993b8535be741a983bd29ecc3eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/gemme_orange.png using Guid(ec41993b8535be741a983bd29ecc3eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3571a5979ebcec697d76d8613513279b') in 0.099371 seconds
+  Import took 0.102490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Imports/Images/gemme_rose.png
+  artifactKey: Guid(340e309d6d33d6949bab16cd090c68cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/gemme_rose.png using Guid(340e309d6d33d6949bab16cd090c68cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd7f6fcc2a6564d326ce1e6a58fe36f') in 0.025434 seconds
+  Import took 0.030661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Imports/Images/sheet.png
+  artifactKey: Guid(b1bca2f45ecb0e84aab167769af78642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/sheet.png using Guid(b1bca2f45ecb0e84aab167769af78642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033b04117b22e59b983553a4c573da83') in 0.175879 seconds
+  Import took 0.179915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Imports/Images/gemme_rose.png
+  artifactKey: Guid(340e309d6d33d6949bab16cd090c68cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/gemme_rose.png using Guid(340e309d6d33d6949bab16cd090c68cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd7f6fcc2a6564d326ce1e6a58fe36f') in 0.012392 seconds
+  Import took 0.016747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Imports
+  artifactKey: Guid(fe289b0c5fd9b204fb99ffe57f090451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports using Guid(fe289b0c5fd9b204fb99ffe57f090451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86e46635019ffc4bd18dbe7dd0b7c19') in 0.007879 seconds
+  Import took 0.012568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Imports/Images/gemme_bleue.asset
+  artifactKey: Guid(e582fc96764fa8446a8a2448d97af430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/gemme_bleue.asset using Guid(e582fc96764fa8446a8a2448d97af430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87dfccb93b143cbd10cc767c892ed0c0') in 0.042252 seconds
+  Import took 0.045996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Imports/Images/gemme_orange.asset
+  artifactKey: Guid(a769d500309c55840950c3e1b1201aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/gemme_orange.asset using Guid(a769d500309c55840950c3e1b1201aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948c5a73c5a9cb65feb33b734ffee5b3') in 0.012889 seconds
+  Import took 0.016816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Imports/Images
+  artifactKey: Guid(e6cef77c757256246abbdc1a4ee8a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images using Guid(e6cef77c757256246abbdc1a4ee8a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06094626e5a87f043bd4dcb557933ca9') in 0.009217 seconds
+  Import took 0.013582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Imports/Images/gemme_bleue.png
+  artifactKey: Guid(fb0fd545254e8834095e1d9539479570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/gemme_bleue.png using Guid(fb0fd545254e8834095e1d9539479570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912808f2e96307f5cebf0f78ac4d2084') in 0.017692 seconds
+  Import took 0.021758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Imports/Images/gemme_rose.asset
+  artifactKey: Guid(498e91fe3a000024bad65f1ee17c904e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/gemme_rose.asset using Guid(498e91fe3a000024bad65f1ee17c904e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83078da98feb2fb2df33474e50c0a611') in 0.015727 seconds
+  Import took 0.020011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.140970 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e945e34a8f5b96d71e97debeda301f2b') in 0.016253 seconds
+  Import took 0.019815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.389550 seconds.
+  path: Assets/Imports/Images/potion_sante.asset
+  artifactKey: Guid(0c6add372e7f6214e8cf06f2f3e3eca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.asset using Guid(0c6add372e7f6214e8cf06f2f3e3eca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda49a496e9e26aa1b7a981a58e49962') in 0.015207 seconds
+  Import took 0.022333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 211.248739 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7198c1d3a0d185755285022becae04') in 0.316393 seconds
+  Import took 0.322280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.908437 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f8ba31aba9f0f09afd8c343c106096') in 0.016034 seconds
+  Import took 0.021638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.211176 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81802cbb1f147203b8a27ee3054bec1') in 0.008620 seconds
+  Import took 0.013244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.403852 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288a46af9e889b2c0cfcd9e8541bae21') in 0.012344 seconds
+  Import took 0.016703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.588344 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6624875aaf5568adf81f181f33ecae23') in 0.019376 seconds
+  Import took 0.023009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.603466 seconds.
+  path: Assets/Imports/Images/potion_sante_0.asset
+  artifactKey: Guid(392d7d5a0eccb8d498d00c31061b50c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante_0.asset using Guid(392d7d5a0eccb8d498d00c31061b50c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23360b94710c6808e7c02bf69e7a87a') in 0.016740 seconds
+  Import took 0.020472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.140080 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5937a09238997c5efa21d9dd408436c6') in 0.013941 seconds
+  Import took 0.017401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.113315 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb47359280e0ebb81a94e87d70ce28d3') in 0.039272 seconds
+  Import took 0.043562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003694 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb47359280e0ebb81a94e87d70ce28d3') in 0.015761 seconds
+  Import took 0.020151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.023085 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cde80e0d9e8730d1522791d7adc63a') in 0.013106 seconds
+  Import took 0.016972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.621379 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020797996d4a187848844d06fd17a816') in 0.012397 seconds
+  Import took 0.016229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.100528 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64a3514db7c9c2ce2b96a1a49d8b003') in 0.006143 seconds
+  Import took 0.010030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.284126 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32737cd29440d5f0bebf40f89d903001') in 0.011725 seconds
+  Import took 0.015276 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
