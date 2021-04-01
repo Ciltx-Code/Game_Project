@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     {
         float horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
 
+
         isGrounded = Physics2D.OverlapArea(groundCheckLeft.position, groundCheckRight.position);
 
         if (Input.GetButtonDown("Jump") && isGrounded)
@@ -36,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
         float charVelocity = Mathf.Abs(rb.velocity.x);
         animator.SetFloat("Speed", charVelocity);
     }
+
 
     void MovePlayer(float _horizontalMovement)
     {
