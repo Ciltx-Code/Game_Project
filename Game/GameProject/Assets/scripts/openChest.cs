@@ -10,7 +10,7 @@ public class openChest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(rb.position.x == pos.position.x)
+        if(rb.position.x > pos.position.x-1 && rb.position.x < pos.position.x +1)
         {
             animator.SetBool("Trigger", true);
         }
