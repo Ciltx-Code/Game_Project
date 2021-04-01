@@ -1,16 +1,21 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 10 Home; OS build 19041.867; Version 2004; 64bit' Language: 'fr' Physical Memory: 16189 MB
+=======
+OS: 'Windows 10 Education; OS build 18363.1440; Version 1909; 64bit' Language: 'fr' Physical Memory: 16169 MB
+>>>>>>> c1b57dd30ffe67af79b383f2bf8893500a9b44e8
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+C:\Program Files\2020.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 C:/Users/lucas/OneDrive/Bureau/Game_Project/Game/GameProject
 -logFile
 Logs/AssetImportWorker0.log
@@ -44,12 +49,122 @@ Registered in 0.376431 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 99.45 ms, found 1 plugins.
+=======
+D:/Game_Project/Game/GameProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59702
+Successfully changed project path to: D:/Game_Project/Game/GameProject
+D:/Game_Project/Game/GameProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 88.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game_Project/Game/GameProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   
+    VRAM:     8084 MB
+    Driver:   27.20.100.8783
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001880 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.95 ms, found 1 plugins.
+>>>>>>> c1b57dd30ffe67af79b383f2bf8893500a9b44e8
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  8.710 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 Registered in 0.100152 seconds.
+=======
+- Completed reload, in  1.509 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.170 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2252.
+Total: 3.048800 ms (FindLiveObjects: 0.277100 ms CreateObjectMapping: 0.114400 ms MarkObjects: 2.486500 ms  DeleteObjects: 0.169000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Imports/Images/potion_sante_0.asset
+  artifactKey: Guid(392d7d5a0eccb8d498d00c31061b50c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante_0.asset using Guid(392d7d5a0eccb8d498d00c31061b50c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23360b94710c6808e7c02bf69e7a87a') in 0.168948 seconds
+  Import took 0.173681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Imports/Images/miniboss0_1_1.asset
+  artifactKey: Guid(b5438e9565804ae4188d3fca4253f4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/miniboss0_1_1.asset using Guid(b5438e9565804ae4188d3fca4253f4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49e1482cafd403611ae7d77daab3449') in 0.010611 seconds
+  Import took 0.015840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Imports/Images/potion_sante.asset
+  artifactKey: Guid(0c6add372e7f6214e8cf06f2f3e3eca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.asset using Guid(0c6add372e7f6214e8cf06f2f3e3eca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49be1e7d5aff8becc928a6e2727a0993') in 0.010394 seconds
+  Import took 0.015936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Imports/Images/miniboss0_1.png
+  artifactKey: Guid(e941bab967db51b41930298912949ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/miniboss0_1.png using Guid(e941bab967db51b41930298912949ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1789bad877aa49f353cd00a76ba877f9') in 0.060827 seconds
+  Import took 0.067364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32737cd29440d5f0bebf40f89d903001') in 0.012383 seconds
+  Import took 0.018527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051970 seconds.
+  path: Assets/Imports/Images/potion_sante.png
+  artifactKey: Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Images/potion_sante.png using Guid(b9d9426b9d5b2ab488f0c573ab8bc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32737cd29440d5f0bebf40f89d903001') in 0.017221 seconds
+  Import took 0.024596 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+>>>>>>> c1b57dd30ffe67af79b383f2bf8893500a9b44e8
