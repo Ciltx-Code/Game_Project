@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using static CamaraFollow;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -21,6 +22,11 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 velocity = Vector3.zero;
     private float horizontalMovement;
+
+    private void Start()
+    {
+        CamaraFollow.DecaleCamera(true);
+    }
 
     void Update()
     {
@@ -74,9 +80,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (_velocity > 0.1f)
         {
+            CamaraFollow.DecaleCamera(true);
             spriteRenderer.flipX = false;
+            
         }else if (_velocity < -0.1f)
         {
+            CamaraFollow.DecaleCamera(false);
             spriteRenderer.flipX = true;
         }
     }

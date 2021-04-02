@@ -3,7 +3,11 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BatMovement
     - CamaraFollow
+    - EnemyPatrol
     - HealthBar
+    - IgonreCollision
+    - MoveCloud
+    - OnFourneau
     - OpenDoor
     - PlayerHealth
     - PlayerMovement
@@ -16,9 +20,13 @@ ScriptsOnlyBuild:
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
+    - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -31,6 +39,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateEditor
     - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
@@ -79,31 +88,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 604}
     - Class: 114
-      Script: {instanceID: 1520}
+      Script: {instanceID: 1486}
     - Class: 114
-      Script: {instanceID: 1688}
+      Script: {instanceID: 1654}
     - Class: 114
-      Script: {instanceID: 1926}
+      Script: {instanceID: 1892}
     - Class: 114
-      Script: {instanceID: 2054}
+      Script: {instanceID: 2020}
     - Class: 114
-      Script: {instanceID: 2480}
+      Script: {instanceID: 2446}
     - Class: 114
-      Script: {instanceID: 2626}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2796}
+      Script: {instanceID: 2762}
     - Class: 114
-      Script: {instanceID: 2870}
+      Script: {instanceID: 2836}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 2860}
     - Class: 114
-      Script: {instanceID: 3010}
+      Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 3616}
+      Script: {instanceID: 3150}
     - Class: 114
-      Script: {instanceID: 4502}
+      Script: {instanceID: 3456}
     - Class: 114
-      Script: {instanceID: 4540}
+      Script: {instanceID: 3586}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4510}
+    - Class: 114
+      Script: {instanceID: 4546}
+    - Class: 114
+      Script: {instanceID: 4560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -353,7 +370,7 @@ ScriptsOnlyBuild:
     className: LimbSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 9c78e842f97579c43aca32545bd48f11
+      Hash: 8ae8ec88422244f0563c2233b3f5a4f3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CamaraFollow
@@ -419,6 +436,12 @@ ScriptsOnlyBuild:
     className: SpriteShapeController
   - hash:
       serializedVersion: 2
+      Hash: c308c44190d562f21689dfe2deec088d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IgonreCollision
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -453,6 +476,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: f6debd247742b965f639fdc0a1f0ea19
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveCloud
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -647,10 +676,22 @@ ScriptsOnlyBuild:
     className: BatMovement
   - hash:
       serializedVersion: 2
+      Hash: 30f38f5a678d927561add343ad0608d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyPatrol
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9b092846de63a357f8aeb6aefbcc3e26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnFourneau
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
