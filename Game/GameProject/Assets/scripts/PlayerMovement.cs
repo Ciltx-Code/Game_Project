@@ -39,7 +39,15 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+        if (!isGrounded)
+        {
+            horizontalMovement = Input.GetAxis("Horizontal") * airSpeed * Time.deltaTime;
+        }
+        else
+        {
+            horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+        }
+        
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayer);
 
