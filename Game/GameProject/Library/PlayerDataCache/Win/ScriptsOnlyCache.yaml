@@ -1,8 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BatMovement
     - CamaraFollow
     - HealthBar
+    - OpenDoor
     - PlayerHealth
     - PlayerMovement
     - openChest
@@ -14,13 +16,9 @@ ScriptsOnlyBuild:
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
-    - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
-    - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -81,27 +79,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 604}
     - Class: 114
-      Script: {instanceID: 1486}
+      Script: {instanceID: 1520}
     - Class: 114
-      Script: {instanceID: 1654}
+      Script: {instanceID: 1688}
     - Class: 114
-      Script: {instanceID: 2018}
+      Script: {instanceID: 1926}
     - Class: 114
-      Script: {instanceID: 2444}
+      Script: {instanceID: 2054}
     - Class: 114
-      Script: {instanceID: 2590}
+      Script: {instanceID: 2480}
     - Class: 114
-      Script: {instanceID: 2760}
+      Script: {instanceID: 2626}
     - Class: 114
-      Script: {instanceID: 2834}
+      Script: {instanceID: 2796}
     - Class: 114
-      Script: {instanceID: 2972}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 3578}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 22604}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 22620}
+      Script: {instanceID: 3616}
+    - Class: 114
+      Script: {instanceID: 4502}
+    - Class: 114
+      Script: {instanceID: 4540}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -211,6 +213,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fa3cdfad1b647adbcd7d1ec99033a1a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerHealth
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -355,6 +363,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 4b8dff74c0603f3e6246514a412ffcba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HealthBar
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -621,6 +635,18 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 9b092846de63a357f8aeb6aefbcc3e26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OpenDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 8d16b27350cbbc02b1a504282445f097
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BatMovement
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -661,18 +687,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 4b8dff74c0603f3e6246514a412ffcba
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HealthBar
-  - hash:
-      serializedVersion: 2
-      Hash: 71678199da2ea4bf55d6c5c43971fe8c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerHealth
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
