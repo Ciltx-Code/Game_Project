@@ -62,6 +62,7 @@
     <Compile Include="Assets\scripts\HealthBar.cs" />
     <Compile Include="Assets\scripts\openChest.cs" />
     <Compile Include="Assets\scripts\OpenDoor.cs" />
+    <Compile Include="Assets\BatMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
