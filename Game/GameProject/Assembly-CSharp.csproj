@@ -67,6 +67,9 @@
     <Compile Include="Assets\scripts\BatMovement.cs" />
     <Compile Include="Assets\scripts\EnemyPatrol.cs" />
     <Compile Include="Assets\scripts\OnFourneau.cs" />
+    <Compile Include="Assets\scripts\LoadSpecificScene.cs" />
+    <Compile Include="Assets\scripts\DontDestroyOnLoadScene.cs" />
+    <Compile Include="Assets\PlayerSpawn.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

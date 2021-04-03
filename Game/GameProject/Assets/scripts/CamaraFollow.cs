@@ -6,8 +6,6 @@ public class CamaraFollow : MonoBehaviour
     public GameObject player;
     public float timeOffset;
     public Vector3 posOffset;
-
-    public Rigidbody2D rb;
     private Vector3 velocity = Vector3.zero;
     private static Vector3 targetVelocity;
 
