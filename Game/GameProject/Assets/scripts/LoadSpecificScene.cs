@@ -6,7 +6,6 @@ public class LoadSpecificScene : MonoBehaviour
 {
     public string sceneName;
     public static bool detector;
-
     public Animator animator;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -25,11 +24,17 @@ public class LoadSpecificScene : MonoBehaviour
 
     public void Update()
     {
+        if (PauseMenu.gameIsPaused)
+        {
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (detector)
             {
                 StartCoroutine(loadNextScene());
+                
+                
             }
         }
     }
@@ -38,5 +43,6 @@ public class LoadSpecificScene : MonoBehaviour
         animator.SetTrigger("FadeIn");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(sceneName);
+        
     }
 }

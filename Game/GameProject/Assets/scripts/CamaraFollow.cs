@@ -12,7 +12,7 @@ public class CamaraFollow : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.SmoothDamp(transform.position, player.transform.position + posOffset + targetVelocity, ref velocity, timeOffset);
-        
+
     }
 
     public static void DecaleCamera(bool cote)
@@ -21,7 +21,7 @@ public class CamaraFollow : MonoBehaviour
         //false = gauche
         if (cote)
         {
-            targetVelocity = new Vector3(1, 0,0);
+            targetVelocity = new Vector3(1, 0, 0);
         }
         else
         {

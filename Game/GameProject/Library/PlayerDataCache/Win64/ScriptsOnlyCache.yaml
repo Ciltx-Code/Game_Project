@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - MoveCloud
     - OnFourneau
     - OpenDoor
+    - PauseMenu
     - PlayerHealth
     - PlayerMovement
     - PlayerSpawn
@@ -83,18 +84,24 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 66
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 604}
+      Script: {instanceID: 1486}
     - Class: 114
-      Script: {instanceID: 2594}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2980}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 4528}
+      Script: {instanceID: 4526}
     - Class: 114
-      Script: {instanceID: 4646}
+      Script: {instanceID: 4644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -104,6 +111,10 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -131,35 +142,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1488}
+      Script: {instanceID: 1486}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1656}
+      Script: {instanceID: 1654}
     - Class: 114
-      Script: {instanceID: 2078}
+      Script: {instanceID: 2076}
     - Class: 114
-      Script: {instanceID: 2448}
+      Script: {instanceID: 2446}
     - Class: 114
-      Script: {instanceID: 2594}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2678}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 2980}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 2988}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 3082}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 3780}
+      Script: {instanceID: 3778}
     - Class: 114
-      Script: {instanceID: 3946}
+      Script: {instanceID: 3944}
     - Class: 114
-      Script: {instanceID: 4126}
+      Script: {instanceID: 4124}
     - Class: 114
-      Script: {instanceID: 5004}
+      Script: {instanceID: 5002}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -218,44 +229,64 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 604}
     - Class: 114
-      Script: {instanceID: 1488}
+      Script: {instanceID: 1486}
     - Class: 114
-      Script: {instanceID: 1656}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1894}
+      Script: {instanceID: 1654}
     - Class: 114
-      Script: {instanceID: 2022}
+      Script: {instanceID: 1892}
     - Class: 114
-      Script: {instanceID: 2448}
+      Script: {instanceID: 2020}
     - Class: 114
-      Script: {instanceID: 2594}
+      Script: {instanceID: 2076}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2446}
     - Class: 114
-      Script: {instanceID: 2840}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2864}
+      Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 2980}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 3154}
+      Script: {instanceID: 2862}
     - Class: 114
-      Script: {instanceID: 3460}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 3590}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 4478}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 4516}
+      Script: {instanceID: 3152}
     - Class: 114
-      Script: {instanceID: 4554}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 4568}
+      Script: {instanceID: 3588}
     - Class: 114
-      Script: {instanceID: 4646}
+      Script: {instanceID: 3778}
     - Class: 114
-      Script: {instanceID: 4678}
+      Script: {instanceID: 3944}
+    - Class: 114
+      Script: {instanceID: 4124}
+    - Class: 114
+      Script: {instanceID: 4476}
+    - Class: 114
+      Script: {instanceID: 4514}
+    - Class: 114
+      Script: {instanceID: 4552}
+    - Class: 114
+      Script: {instanceID: 4566}
+    - Class: 114
+      Script: {instanceID: 4644}
+    - Class: 114
+      Script: {instanceID: 4676}
+    - Class: 114
+      Script: {instanceID: 5002}
+    - Class: 114
+      Script: {instanceID: 18214}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -270,6 +301,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -898,9 +935,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 384f433e7e16027216a40721791b557a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/OutsideHouse.unity
   - Assets/Scenes/InsideHouse.unity
-  playerPath: D:/Documents/Builds Game/Build 5/GameProject.exe
+  playerPath: D:/Documents/Builds Game/Build 6/GameProject.exe

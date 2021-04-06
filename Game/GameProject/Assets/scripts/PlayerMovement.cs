@@ -5,6 +5,8 @@ using static CamaraFollow;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement instance;
+
     public float moveSpeed;
     public float airSpeed;
     public float jumpForce;
@@ -24,6 +26,17 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 velocity = Vector3.zero;
     private float horizontalMovement;
 
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.LogWarning("Il y a plus d'une instance de PlayerMovement dans la scène");
+            return;
+        }
+
+        instance = this;
+    }
+
     private void Start()
     {
         CamaraFollow.DecaleCamera(true);
@@ -31,6 +44,15 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (!isGrounded)
+        {
+            horizontalMovement = Input.GetAxis("Horizontal") * airSpeed * Time.fixedDeltaTime;
+        }
+        else
+        {
+            horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.fixedDeltaTime;
+        }
+
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
@@ -46,19 +68,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!isGrounded)
-        {
-            horizontalMovement = Input.GetAxis("Horizontal") * airSpeed * Time.deltaTime;
-        }
-        else
-        {
-            horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
-        }
-        
-
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayer);
-
-        
         MovePlayer(horizontalMovement);
     }
 
