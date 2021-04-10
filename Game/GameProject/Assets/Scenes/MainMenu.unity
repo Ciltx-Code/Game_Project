@@ -1136,7 +1136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec15fa24c6cb1d49a101b69ceaed7e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoadFirst: OutsideHouse
+  levelToLoadFirst: InsideHouse
   settingsWindow: {fileID: 1596011870}
 --- !u!114 &933388955
 MonoBehaviour:

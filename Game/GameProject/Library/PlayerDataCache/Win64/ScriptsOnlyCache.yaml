@@ -43,8 +43,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -70,6 +72,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 4
       Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
     - Class: 28
@@ -84,7 +88,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 66
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
     - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -95,14 +103,46 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1486}
     - Class: 114
+      Script: {instanceID: 1598}
+    - Class: 114
+      Script: {instanceID: 1654}
+    - Class: 114
+      Script: {instanceID: 2020}
+    - Class: 114
+      Script: {instanceID: 2076}
+    - Class: 114
+      Script: {instanceID: 2446}
+    - Class: 114
       Script: {instanceID: 2592}
+    - Class: 114
+      Script: {instanceID: 2764}
+    - Class: 114
+      Script: {instanceID: 2838}
     - Class: 114
       Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 4526}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 4644}
+      Script: {instanceID: 3080}
+    - Class: 114
+      Script: {instanceID: 3458}
+    - Class: 114
+      Script: {instanceID: 3778}
+    - Class: 114
+      Script: {instanceID: 3944}
+    - Class: 114
+      Script: {instanceID: 4124}
+    - Class: 114
+      Script: {instanceID: 4454}
+    - Class: 114
+      Script: {instanceID: 4528}
+    - Class: 114
+      Script: {instanceID: 4646}
+    - Class: 114
+      Script: {instanceID: 5004}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -114,7 +154,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -170,7 +218,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4124}
     - Class: 114
-      Script: {instanceID: 5002}
+      Script: {instanceID: 5004}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -269,21 +317,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4124}
     - Class: 114
-      Script: {instanceID: 4476}
+      Script: {instanceID: 4454}
     - Class: 114
-      Script: {instanceID: 4514}
+      Script: {instanceID: 4478}
     - Class: 114
-      Script: {instanceID: 4552}
+      Script: {instanceID: 4516}
     - Class: 114
-      Script: {instanceID: 4566}
+      Script: {instanceID: 4554}
     - Class: 114
-      Script: {instanceID: 4644}
+      Script: {instanceID: 4568}
     - Class: 114
-      Script: {instanceID: 4676}
+      Script: {instanceID: 4646}
     - Class: 114
-      Script: {instanceID: 5002}
+      Script: {instanceID: 4678}
     - Class: 114
-      Script: {instanceID: 18214}
+      Script: {instanceID: 5004}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -547,7 +595,7 @@ ScriptsOnlyBuild:
     className: LimbSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 9c78e842f97579c43aca32545bd48f11
+      Hash: e05c250220c3b3e4861b2eb7906943ac
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CamaraFollow
@@ -847,6 +895,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 384f433e7e16027216a40721791b557a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
+  - hash:
+      serializedVersion: 2
       Hash: 9b092846de63a357f8aeb6aefbcc3e26
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -935,15 +989,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 384f433e7e16027216a40721791b557a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PauseMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
-  - Assets/Scenes/OutsideHouse.unity
   - Assets/Scenes/InsideHouse.unity
-  playerPath: D:/Documents/Builds Game/Build 6/GameProject.exe
+  - Assets/Scenes/OutsideHouse.unity
+  playerPath: D:/Documents/Builds Game/Build 7/GameProject.exe
