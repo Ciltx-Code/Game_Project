@@ -34,7 +34,6 @@ public class LoadSpecificScene : MonoBehaviour
             {
                 StartCoroutine(loadNextScene());
                 
-                
             }
         }
     }

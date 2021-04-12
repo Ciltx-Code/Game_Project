@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\scripts\PlayerHealth.cs" />
     <Compile Include="Assets\scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\ChangeLevel.cs" />
+    <Compile Include="Assets\LevelSelection.cs" />
     <Compile Include="Assets\scripts\MainMenuScript.cs" />
     <Compile Include="Assets\scripts\CamaraFollow.cs" />
     <Compile Include="Assets\scripts\HealthBar.cs" />
@@ -74,6 +76,7 @@
     <Compile Include="Assets\scripts\LoadSpecificScene.cs" />
     <Compile Include="Assets\scripts\DontDestroyOnLoadScene.cs" />
     <Compile Include="Assets\scripts\SettingsMenu.cs" />
+    <Compile Include="Assets\AutoMovementRight.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

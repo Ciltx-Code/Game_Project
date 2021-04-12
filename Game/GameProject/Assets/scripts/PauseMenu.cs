@@ -12,7 +12,6 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            print(gameIsPaused);
             if (gameIsPaused)
             {
                 Resume();
@@ -41,9 +40,7 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         
         Time.timeScale = 0;
-        print(Time.timeScale);
         gameIsPaused = true;
-        print(gameIsPaused);
         PlayerMovement.instance.enabled = false;
     }
 
@@ -58,7 +55,7 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadMainMenu()
     {
-        DontDestroyOnLoadScene.instance.RemoveFromDontDestroyOnLoad();
+        
         Resume();
         SceneManager.LoadScene("MainMenu");
     }

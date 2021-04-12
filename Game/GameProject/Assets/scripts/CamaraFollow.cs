@@ -7,12 +7,13 @@ public class CamaraFollow : MonoBehaviour
     public float timeOffset;
     public Vector3 posOffset;
     public bool isOnOutsideHouse;
+    public float stopCameraX;
     private Vector3 velocity = Vector3.zero;
     private static Vector3 targetVelocity;
 
     void Update()
     {
-        if(!(transform.position.x >= -15 && isOnOutsideHouse))
+        if(!(transform.position.x >= stopCameraX && isOnOutsideHouse))
         {
             transform.position = Vector3.SmoothDamp(transform.position, player.transform.position + posOffset + targetVelocity, ref velocity, timeOffset);
         }
