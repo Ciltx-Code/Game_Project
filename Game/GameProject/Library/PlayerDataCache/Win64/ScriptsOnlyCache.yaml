@@ -19,6 +19,7 @@ ScriptsOnlyBuild:
     - PlayerHealth
     - PlayerMovement
     - PlayerSpawn
+    - ReadText
     - SettingsMenu
     - openChest
     Unity.2D.Animation.Editor.dll:
@@ -46,6 +47,7 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnimatorStateTransitionInspector
     - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
@@ -114,8 +116,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2076}
     - Class: 114
-      Script: {instanceID: 2264}
-    - Class: 114
       Script: {instanceID: 2448}
     - Class: 114
       Script: {instanceID: 2596}
@@ -147,6 +147,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4684}
     - Class: 114
       Script: {instanceID: 5010}
+    - Class: 114
+      Script: {instanceID: 19184}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -462,6 +464,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4684}
     - Class: 114
       Script: {instanceID: 5010}
+    - Class: 114
+      Script: {instanceID: 19184}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -743,7 +747,7 @@ ScriptsOnlyBuild:
     className: LimbSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 337d19528a023851262ac41257091ded
+      Hash: f54ab006a597503336b1ba9c41ec9564
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CamaraFollow
@@ -1137,10 +1141,16 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 12115d36108fad3241c49156a5513e2f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ReadText
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/InsideHouse.unity
   - Assets/Scenes/OutsideHouse.unity
   - Assets/Scenes/Level01.unity
-  playerPath: D:/Documents/Builds Game/Build 10/GameProject.exe
+  playerPath: D:/Documents/Builds Game/Build 11/GameProject.exe

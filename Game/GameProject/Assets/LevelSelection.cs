@@ -9,6 +9,7 @@ public class LevelSelection : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     public static bool iswalking;
+    private bool trigger;
 
     // Update is called once per frame
     void Update()
@@ -19,14 +20,17 @@ public class LevelSelection : MonoBehaviour
             {
                 levelSelector.SetActive(true);
                 animator.SetBool("Trigger", true);
+                trigger = true;
             }
             
         }
         else
         {
+            if(trigger)
+            {
                 animator.SetBool("Trigger", false);
                 //levelSelector.SetActive(false);
-
+            }
         }
     }
 }
