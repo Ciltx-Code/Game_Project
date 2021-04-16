@@ -1,16 +1,20 @@
 using UnityEngine;
+using static AudioManager;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class MainMenuScript : MonoBehaviour
 {
     public string levelToLoadFirst;
-
+    public Animator animator;
+    public GameObject FadeSystem;
     public GameObject settingsWindow;
+
 
     public void StartGame()
     {
-        SceneManager.LoadScene(levelToLoadFirst);
-        Screen.fullScreen = true;
+        AudioManager.isLaunching = true;
+        StartCoroutine(loadNextScene());
     }
 
     public void SettingsButton()
@@ -26,5 +30,13 @@ public class MainMenuScript : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public IEnumerator loadNextScene()
+    {
+        FadeSystem.SetActive(true);
+        animator.SetTrigger("FadeIn");
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(levelToLoadFirst);
     }
 }

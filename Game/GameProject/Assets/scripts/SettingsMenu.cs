@@ -4,6 +4,7 @@ using UnityEngine.Audio;
 using UnityEngine.UI;
 using System.Linq;
 
+
 public class SettingsMenu : MonoBehaviour
 {
     public AudioMixer audioMixer;
@@ -48,9 +49,9 @@ public class SettingsMenu : MonoBehaviour
         Screen.fullScreen = isFullScreen;
     }
 
-    public void SetResolution(int resulutonIndex)
+    public void SetResolution(int resulutionIndex)
     {
-        Resolution resolution = resolutions[resulutonIndex];
+        Resolution resolution = resolutions[resulutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
 

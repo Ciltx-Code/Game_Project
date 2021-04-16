@@ -1,4 +1,5 @@
 using UnityEngine;
+using static AudioManager;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
@@ -32,6 +33,7 @@ public class LoadSpecificScene : MonoBehaviour
         {
             if (detector)
             {
+                AudioManager.isLaunching = true;
                 StartCoroutine(loadNextScene());
                 
             }
@@ -42,6 +44,5 @@ public class LoadSpecificScene : MonoBehaviour
         animator.SetTrigger("FadeIn");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(sceneName);
-        
     }
 }

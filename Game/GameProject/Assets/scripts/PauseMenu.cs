@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static AudioManager;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -55,7 +56,7 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadMainMenu()
     {
-        
+        AudioManager.isLaunching = true;
         Resume();
         SceneManager.LoadScene("MainMenu");
     }
